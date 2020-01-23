@@ -1,0 +1,92 @@
+.items .center hr{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    height: 1px;
+    background-color: black;
+}
+
+.categories{
+    max-width: 170px;
+}
+.setCatal{
+    margin: 0;
+    padding: 0;
+}
+.items .center .CatOff{
+    width: 170px;
+    padding:0;
+    margin:0 auto;
+    visibility: hidden;
+    height:0;
+    overflow:hidden;
+    opacity:0;
+    transition:all 1s linear;
+  }
+  .items .center .CatOnn{
+    width: 200px;
+    margin-left: -30px;
+    
+    padding-right: 10px;
+    visibility: visible;
+    height:auto;
+    overflow:none;
+    opacity:1;
+    margin-bottom: 10px;
+  }
+  .conteinerBlock{
+    display: flex;
+    margin-left: 4%;
+  }
+/*-------------------Items-----------------------------*/
+.container-products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      max-width: 1000px;
+  width: 100%;
+  border-radius: 15px;
+  
+}
+
+.container-products .item {
+  width: 300px;
+ 
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+}
+.container-products .item:hover{
+  background-color: rgba(195, 192, 192, 0.397);
+  border-radius: 10px;
+
+}
+
+.container-products .img{
+    background-image: url('./img/iphone-15.png');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container-products .img:hover{
+  opacity: 0.9;
+}
+.price {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 800;
+  margin-left: 3px;
+}
+.name{
+  text-align: left;
+  font-size: 18px;
+  margin-left: 3px;
+}
+.container-products .btn{
+  background-color: rgba(195, 192, 192, 0.397);
+  border-radius: 10px;
+  width: 300px;
+}
+/*# sourceMappingURL=style.css.map */

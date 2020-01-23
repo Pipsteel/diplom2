@@ -1,0 +1,174 @@
+body{
+    margin: 0 auto;
+    max-width: 1920px;
+}
+.center{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.ru{
+    display: block;
+}
+.eng{
+    display: none;
+}
+li{
+    list-style-type: none;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+/****************************************************************************TOP*/
+.top{max-width: 1920px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff
+}
+
+.topLeft{
+    margin-left: 2%;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: burlywood;
+}
+
+.topRight{
+    max-width: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-right: 2%;
+    
+}
+
+.topRight div{
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 100px;
+    margin: 0;
+    
+}
+.dost{    
+    background-color: rgb(204, 142, 61);
+    min-height: 30px;
+    
+    
+}
+.topRight div:hover{
+    background-color: cornflowerblue;
+}
+.car{
+    margin-left: 7px;
+}
+
+/*********************************************************************************Header*/
+.headerContent{
+    height: 60px;/**deletelater*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headRight span{
+    min-width: 100px;
+}
+.headLeft   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headLeft span{
+    min-width: 100px;
+}
+/************************************************************************************************/
+/*********************************************************************************************Menu*/
+.menu{
+    background-color: rgba(248, 246, 246, 0.883);
+}
+.menuIN{
+    display: flex;
+    justify-content: space-between;
+
+}
+.menuIN ul{
+    max-width: 30%;
+    min-width: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menuIN div input{
+    width: 300px;
+}
+/***********************************************************************************************Actualno*/
+.actualno{
+    text-align: center;
+}
+.cardsActual{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.cardsActual a{
+    text-decoration: none;
+}
+.cardsActual .card{
+    max-width: 400px;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+.cardsActual .card img{
+    width: 400px;
+    height: 500px;
+}
+.cardsActual h1{
+    font-size: 24px;
+}
+/**********************************************************************************************************Sales*/
+.sales{
+    text-align: center;
+}
+.carousel-inner .carousel-item.active,.carousel-inner .carousel-item-next,.carousel-inner .carousel-item-prev{display:flex}
+.carousel-inner .carousel-item-right.active,.carousel-inner .carousel-item-next{transform:translateX(30%)}
+.carousel-inner .carousel-item-left.active,.carousel-inner .carousel-item-prev{transform:translateX(-30%)}
+.carousel-inner .carousel-item-right,.carousel-inner .carousel-item-left{transform:translateX(0)}
+/************************************************************************************************************Info*/
+.Info{
+text-align: center;
+}
+.infoColomns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.infoColomns .side{
+    max-width: 29%;
+    width: 100%;
+}
+.infoColomns .cent{
+    max-width: 38%;
+    width: 100%;
+}
+/************************************************************************************************************Footer*/
+footer{
+    background-color: rgba(248, 246, 246, 0.883);
+    height: 200px;
+}

@@ -1,0 +1,17 @@
+.cardImg{
+    width: 300px;
+    hight: 350px;
+}
+.allCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.delBtn{
+    width: 200px;
+    hight: 30px;
+    border-radius: 10px;
+}
+.resultInner{
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+.show{
+    margin: 0 auto;
+    width: 500px;
+    border: 2px solid gray;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+.show input{
+    height: 40px;
+    margin: 0 auto;
+    width: 350px;
+    border-radius: 10px;
+    
+}
+.show button{
+    margin: 0 auto;
+    width: 350px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.hidden{
+    display: none;
+}
+
+
+
+
+.btnControl{
+    background-color: rgb(216, 214, 214);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.btnControl button{
+    width: 170px;
+    border-radius: 10px ;
+    margin: 10px;
+    flex-wrap: wrap;
+}

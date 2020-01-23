@@ -1,0 +1,211 @@
+li{
+    list-style: none;
+}
+body{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.center{
+   max-width: 1280px;
+   widows: 100%;
+   margin: 0 auto;
+}
+/****************************общие стили***************************/
+.search {
+	width: 100%;
+	position: relative;
+}
+
+.search input {
+	border: none;
+}
+
+.search .input {
+
+	width: 100%;
+	padding: 8px 37px 9px 15px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 1px 2px rgba(0,0,0,0.3);
+	border-radius: 20px;
+	background: #EEE;
+	font: 13px Tahoma, Arial, sans-serif;
+	color: #555;
+	outline: none;
+}
+.search .input:focus {
+	box-shadow: inset 0 0 5px rgba(0,0,0,0.2), inset 0 1px 2px rgba(0,0,0,0.4);
+	background: #E8E8E8;
+	color: #333;
+}
+
+.search .submit {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 37px;
+	height: 100%;
+	cursor: pointer;
+	background: url(https://lh4.googleusercontent.com/-b-5aBxcxarY/UAfFW9lVyjI/AAAAAAAABUg/gQtEXuPuIds/s13/go.png) 50% no-repeat;
+	opacity: 0.5;
+}
+
+.search .submit:hover {
+	opacity: 0.8;
+}
+input[type="search"] {
+	-webkit-appearance: none;
+}
+/***********************************стилизация строки поиска*****************************************/
+.head ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0 auto;
+    padding: 0;
+}
+.head {
+    background-color: rgb(177, 177, 177);;
+    padding: 10px;
+}
+.Sfirst{
+    max-width: 700px;
+    width: 100%;
+}
+.Ssec{
+    margin-left: 15%;
+    margin-right: 10px;
+}
+.Ssec button{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(146, 145, 145);
+    border-radius: 15px;
+    border: 0 solid ;
+}
+.Sthrd button{
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(146, 145, 145);
+    border-radius: 15px;
+    border: 0 solid ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Sthrd button svg{
+    font-size: 15px;
+    margin-top: 4px;
+}
+.Sfour{
+    width: 100px;
+    text-align: center;
+}
+.Sfour p{
+    margin: 0;
+    margin-top: 2px;
+}
+/*********************************Head****************************************/
+.Logo .center a{
+    text-decoration: none;
+    color: black;
+}
+.Logo .center h1{
+    text-align: center;
+    font-size: 55px;
+    padding: 10px;
+    
+}
+/*--------------------------------Logo----------------------------------------*/
+.hidden{
+    width:90%;
+    padding:0;
+    margin:0 auto;
+    visibility: hidden;
+    height:0;
+    overflow:hidden;
+    opacity:0;
+    transition:all 1s linear;
+  }
+.show{
+    margin-left: -37px;
+    padding-top: 5px;
+    padding-right: 10px;
+    visibility: visible;
+    height:auto;
+    overflow:none;
+    opacity:1;
+  }
+.show li{
+    width: 120px;
+}
+.NavSpis{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*---------------------------------navigation---------------------------------*/
+.one{
+    height: 577px;
+}
+.two{
+    height: 577px;
+}
+/*------------------------------Baner--------------------------------------------*/
+.offers{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    width: 370px;
+    height: 530px; 
+    text-align: center; 
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.card img{
+    height: 470px;
+    width: auto;
+}
+/*------------------------------offers-----------------------------------------------*/
+.text{
+    font-size: 14px;
+}
+/*------------------------------------TXT--------------------------------------------*/
+footer{
+    background-color: rgb(177, 177, 177);
+    padding: 0 ;
+    margin: 0 auto;
+}
+.end{
+    color: #fff;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.SubEnd li{
+    margin-left: -39px;
+}
+.SubEnd a{
+    color: rgb(255, 251, 251);
+}
+.last{
+    margin-left: -25px;
+    color: #000;
+}
+.spam{
+    height: 40px;
+}
