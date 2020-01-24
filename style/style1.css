@@ -71,8 +71,12 @@ input[type="search"] {
     padding: 10px;
 }
 .Sfirst{
-    max-width: 700px;
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Sfirst .search{
+    max-width: 70%;
 }
 .Ssec{
     margin-left: 15%;

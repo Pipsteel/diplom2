@@ -16,3 +16,4 @@ function secf(){
 function thrdf(){
     document.getElementById("hien").classList.toggle("show");  
 }
+
