@@ -37,8 +37,9 @@ let singBtn = document.getElementById('buttSing');
 let user = [];
 let users = [];
 let userCount = 0;
-let usersCards = JSON.parse(localStorage.getItem('myKey'));
+let usersCards = [];
 let re = 0;
+let prov = 0;
 localStorage.setItem('status', re);
 
 
@@ -54,6 +55,7 @@ function singUsers() {
     users.push(user);
     console.log(users);
     localStorage.setItem('myKey', JSON.stringify(users));
+        usersCards = JSON.parse(localStorage.getItem('myKey'))
     
 }
 logBtn.addEventListener('click',function () {
@@ -65,18 +67,14 @@ singBtn.addEventListener('click', function () {
 })
 
 function singIn(){
-    usersCards.map(function (item, index) {
-        console.log(item);
-        console.log(item.name);
-        if ((item.email === emailSing.value)||(item.password === passwordSing)){
-            console.log("ccc");
-            registration = true;
-            re = 0;
-            localStorage.setItem('status', '1');
-            document.location.href = "./index.html";
-        } 
-        else {
-            console.log("false")
+    usersCards = JSON.parse(localStorage.getItem('myKey'))
+    usersCards.map(function (use, index) {
+        console.log(use);
+        if (use.email === emailSing.value){
+            console.log('done');
+            prov = 1;
+            console.log(prov);
+            localStorage.setItem('status', prov);
         }
     })
 }
